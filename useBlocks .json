@@ -1,0 +1,61 @@
+{
+  "collapsed": true,
+  "extID": "useBlocks ",
+  "extName": "Useful Blocks",
+  "color1Pick": false,
+  "color2Pick": false,
+  "color1": "#417505",
+  "color2": "#b8e986",
+  "indexJS": null,
+  "menuIcon": null,
+  "blockIcon": null,
+  "editBlockID": "wertgh",
+  "blocks": [
+    {
+      "opcode": "ifHat",
+      "svg": "<svg id=\"src\" xmlns=\"http://www.w3.org/2000/svg\" width=\"132.9453125\" height=\"72.5\" >\n    %3Cg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20data-id%3D%22(xT%7B%2BO-Bj%2C%5Eg.%7B_jJW%60m%22%20class%3D%22blocklyDraggable%20blocklySelected%22%20data-shapes%3D%22hat%22%3E%3Cpath%20class%3D%22blocklyPath%20blocklyBlockBackground%22%20stroke%3D%22%23FF3355%22%20fill%3D%22%23FF6680%22%20fill-opacity%3D%221%22%20d%3D%22m%200%2C0%20c%2025%2C-22%2071%2C-22%2096%2C0%20H%20128.9453125%20a%204%2C4%200%200%2C1%204%2C4%20v%2040%20%20a%204%2C4%200%200%2C1%20-4%2C4%20H%2048%20%20%20c%20-2%2C0%20-3%2C1%20-4%2C2%20l%20-4%2C4%20c%20-1%2C1%20-2%2C2%20-4%2C2%20h%20-12%20c%20-2%2C0%20-3%2C-1%20-4%2C-2%20l%20-4%2C-4%20c%20-1%2C-1%20-2%2C-2%20-4%2C-2%20H%204%20a%204%2C4%200%200%2C1%20-4%2C-4%20z%22%2F%3E%3Cg%20data-id%3D%22stRFDmdxU5%3BN%3DNOg%24A8h%22%20data-argument-type%3D%22text%22%20data-shapes%3D%22argument%20boolean%22%20transform%3D%22translate(46%2C8)%22%3E%3Cpath%20class%3D%22blocklyPath%20blocklyBlockBackground%22%20stroke%3D%22%23FF3355%22%20fill%3D%22%23FFFFFF%22%20fill-opacity%3D%221%22%20d%3D%22m%200%2C0%20m%2016%2C0%20H%2062.9453125%20l%2016%2016%20l%20-16%2016%20H%2016%20l%20-16%20-16%20l%2016%20-16%20z%22%2F%3E%3Cg%20class%3D%22blocklyEditableText%22%20transform%3D%22translate(8%2C%200)%20%22%20style%3D%22cursor%3A%20text%3B%22%3E%3Ctext%20class%3D%22blocklyText%22%20x%3D%2231.47265625%22%20y%3D%2218%22%20dominant-baseline%3D%22middle%22%20dy%3D%220%22%20text-anchor%3D%22middle%22%3Eboolean%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3Cg%20data-argument-type%3D%22text%22%20class%3D%22blocklyEditableText%22%20transform%3D%22translate(8%2C%208)%20%22%20style%3D%22cursor%3A%20text%3B%22%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2230%22%20height%3D%2232%22%20fill%3D%22%23FF3355%22%2F%3E%3Ctext%20class%3D%22blocklyText%20blocklyEditableLabel%22%20x%3D%2215%22%20y%3D%2218%22%20dominant-baseline%3D%22middle%22%20dy%3D%220%22%20text-anchor%3D%22middle%22%3Eif%3C%2Ftext%3E%3C%2Fg%3E%3Cpath%20class%3D%22blocklyPath%22%20style%3D%22visibility%3A%20hidden%22%20d%3D%22%22%20fill%3D%22%23FF3355%22%2F%3E%3C%2Fg%3E\n    </svg>",
+      "msg": "if %1",
+      "args": [
+        {
+          "argType": "BOOLEAN",
+          "placeholder": "boolean",
+          "check": "Boolean",
+          "json": {
+            "type": "input_value",
+            "name": "boolean",
+            "check": "Boolean"
+          }
+        }
+      ],
+      "mutationText": "<xml><mutation xmlns=\"http://www.w3.org/1999/xhtml\" generateshadows=\"true\" proccode=\"if %b\" argumentids=\"[&quot;#3Ko*(|p0L$fuPptidYq&quot;]\" argumentnames=\"[&quot;boolean&quot;]\" argumentdefaults=\"[&quot;&quot;,&quot;false&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;false&quot;,&quot;&quot;,&quot;&quot;]\" warp=\"false\"></mutation></xml>",
+      "type": "hat"
+    },
+    {
+      "opcode": "boolNum",
+      "svg": "<svg id=\"src\" xmlns=\"http://www.w3.org/2000/svg\" width=\"80\" height=\"40\" >\n    %3Cg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20data-id%3D%22YpQ%60%3D%5BOqZ%60-T2H~hKHtD%22%20class%3D%22blocklyDraggable%20blocklySelected%22%20data-shapes%3D%22reporter%20boolean%22%3E%3Cpath%20class%3D%22blocklyPath%20blocklyBlockBackground%22%20stroke%3D%22%23FF3355%22%20fill%3D%22%23FF6680%22%20fill-opacity%3D%221%22%20d%3D%22m%200%2C0%20m%2020%2C0%20H%2060%20l%2020%2020%20l%20-20%2020%20H%2020%20l%20-20%20-20%20l%2020%20-20%20z%22%2F%3E%3Cg%20data-id%3D%22_0*%7BvO0.2C3DW9lb%40k%25g%22%20data-argument-type%3D%22text%22%20data-shapes%3D%22argument%20round%22%20transform%3D%22translate(20%2C4)%22%3E%3Cpath%20class%3D%22blocklyPath%20blocklyBlockBackground%22%20stroke%3D%22%23FF3355%22%20fill%3D%22%23FFFFFF%22%20fill-opacity%3D%221%22%20d%3D%22m%200%2C0%20m%2016%2C0%20H%2024%20a%2016%2016%200%200%201%200%2032%20H%2016%20a%2016%2016%200%200%201%200%20-32%20z%22%2F%3E%3Cg%20class%3D%22blocklyEditableText%22%20transform%3D%22translate(8%2C%200)%20%22%20style%3D%22cursor%3A%20text%3B%22%3E%3Ctext%20class%3D%22blocklyText%22%20x%3D%2212%22%20y%3D%2218%22%20dominant-baseline%3D%22middle%22%20dy%3D%220%22%20text-anchor%3D%22middle%22%3EX%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3Cpath%20class%3D%22blocklyPath%22%20style%3D%22visibility%3A%20hidden%22%20d%3D%22%22%20fill%3D%22%23FF3355%22%2F%3E%3C%2Fg%3E\n    </svg>",
+      "msg": "%1",
+      "args": [
+        {
+          "argType": "STRING",
+          "placeholder": "X",
+          "shadowType": "text",
+          "fieldType": "TEXT",
+          "json": {
+            "type": "input_value",
+            "name": "X"
+          }
+        }
+      ],
+      "mutationText": "<xml><mutation xmlns=\"http://www.w3.org/1999/xhtml\" generateshadows=\"true\" proccode=\"%s\" argumentids=\"[&quot;=9{cn%-]q[_#cn4mD`ME&quot;]\" argumentnames=\"[&quot;X&quot;]\" argumentdefaults=\"[&quot;&quot;]\" warp=\"false\"></mutation></xml>",
+      "type": "bool"
+    }
+  ],
+  "menus": [],
+  "addBlockType": "func",
+  "showMutation": false,
+  "blockScript": null,
+  "genOption": [],
+  "genHeadScript": null,
+  "blockGenerator": null,
+  "isShowCodePreview": false
+}
